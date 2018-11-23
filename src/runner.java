@@ -12,6 +12,7 @@ public class runner {
             } else cars[i] = createCar("Mazda");
         }
 
+
         for (Car car : cars) {
             car.move();
             if (car instanceof BMW) {
